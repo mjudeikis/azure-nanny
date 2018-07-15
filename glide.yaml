@@ -1,0 +1,7 @@
+package: github.com/openshift/azure-misc/src/go
+import:
+- package: github.com/Azure/azure-sdk-for-go
+- package: github.com/Azure/azure-storage-blob-go
+- package: k8s.io/client-go/kubernetes
+- package: k8s.io/client-go/rest
+- package: k8s.io/apimachinery

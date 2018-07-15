@@ -1,5 +1,6 @@
 # Testing
 
+```
 export AZURE_SUBSCRIPTION_ID=zzzzzzz
 export AZURE_CLIENT_ID=zzzzzzzzz
 export AZURE_CLIENT_SECRET=zzzzzzzzzzzzz
@@ -11,3 +12,4 @@ export STORAGE_ACCOUNT=etcdbackup
 export MY_POD_NAMESPACE=mjudeikis-nanny
 
 go run cmd/azure-nanny/main.go --kubeconfig /home/mjudeiki/.aks/admin.kubeconfig
+```
